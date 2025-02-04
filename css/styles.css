@@ -508,14 +508,12 @@ img {
     fill: #f4f4fd;
 }
 
-.footer-form {
-    display: flex;
-    align-items: flex-end;
-    gap: 24px;
+/* ----------FOOTER-SUBSCRIBE---------- */
 
+.footer-subscribe {
 }
 
-.form-text {
+.subscribe-text {
     margin-bottom: 16px;
     color: #ffffff;
     font-weight: 500;
@@ -523,7 +521,16 @@ img {
     letter-spacing: 0.02em;
 }
 
-.footer-field {
+.footer-form {
+}
+
+.form-wraper {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.form-inner {
 }
 
 .footer-label {
@@ -562,7 +569,7 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-form-svg {
+.footer-btn-svg {
     margin-left: 16px;
 }
 

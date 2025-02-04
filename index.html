@@ -343,27 +343,25 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer-form">
-
-                    <div>
-                        <p class="form-text">Subscribe</p>
-                        <form class="footer-field">
+            <div class="footer-subscribe">
+                <p class="subscribe-text">Subscribe</p>
+                <form class="footer-form">
+                    <div class="form-wraper">
+                        <div class="form-inner">
                             <label class="footer-label" for="subscribe-email">
-                                <input type="email" class="footer-input" name="subscribe-email" placeholder="E-mail">
+                                <input type="email" class="footer-input" id="subscribe-email" name="subscribe-email" placeholder="E-mail">
                             </label>
+                        </div>
+                        <div class="form-inner">
+                            <button class="footer-button" type="submit">
+                                Subscribe
+                                <svg class="footer-btn-svg" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-subscribe"></use>
+                                </svg>
+                            </button>
+                        </div>
                     </div>
-
-
-                    <div>
-                        <button class="footer-button" type="submit">
-                            Subscribe
-                            <svg class="footer-form-svg" width="24" height="24">
-                                <use href="./images/icons.svg#icon-subscribe"></use>
-                            </svg>
-                        </button>
-                    </div>
-                    </form>
-
+                </form>
             </div>
         </div>
     </footer>
@@ -394,7 +392,6 @@
                         </svg>    
                     </div>
                 </div>
-                
                 <div class="modal-field">
                     <label class="modal-label" for="user-email">Email</label>
                     <div class="input-wrap">
