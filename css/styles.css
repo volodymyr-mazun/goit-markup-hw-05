@@ -522,12 +522,8 @@ img {
 }
 
 .footer-form {
-}
-
-.form-wraper {
-    display: flex;
-    align-items: center;
-    gap: 24px;
+        display: flex;
+        gap: 24px;
 }
 
 .form-inner {
